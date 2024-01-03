@@ -1,7 +1,7 @@
 function stringChop(str, size) {
   // your code here
 	  let n=str.length;
-	if(n===0) return [];
+	if(n===0 || size<1) return [];
  let i=0;
  let starr=[];
 
