@@ -3,7 +3,7 @@ function stringChop(str, size) {
 	  let n=str.length;
  let i=0;
  let starr=[];
- debugger;
+
  while(i<n){
   let btr="";
   for(let j=0;j<size;j++){
